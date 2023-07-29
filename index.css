@@ -12,6 +12,11 @@ body {
     position: relative;
 }
 
+#input-text,
+#output-text {
+    resize: none;
+}
+
 #arrow {
     position: absolute;
     top: 50%;

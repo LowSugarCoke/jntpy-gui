@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#input-region,
+#output-region {
+    flex: 1;
+    padding: 20px;
+    position: relative;
+}
+
+#arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+}
+
+.drag-over {
+    background-color: #ddd;
+}

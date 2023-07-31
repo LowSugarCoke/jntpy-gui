@@ -8,6 +8,7 @@ const { spawn } = require('child_process')
 // Declare the window object globally to avoid garbage collection
 let win = null
 
+
 // Create a new BrowserWindow when `app` is ready
 function createWindow() {
     // Get the dimensions of the primary display
@@ -33,8 +34,9 @@ app.whenReady().then(createWindow)
 
 // Listen for the 'change-julpty-notebook-to-python' event from renderer process
 ipcMain.on('change-julpty-notebook-to-python', (event, notebookContent) => {
+
     // Create a new Python child process and execute the conversion script
-    const python = spawn('python', [path.join(__dirname, 'script.py')])
+    const python = spawn(path.join(__dirname, 'script.exe'));
 
     // Write the notebook content into the Python program's standard input
     python.stdin.write(notebookContent);

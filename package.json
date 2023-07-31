@@ -9,6 +9,9 @@
         "dist": "electron-builder"
     },
     "build": {
+        "directories": {
+            "output": "deployment"
+        },
         "win": {
             "target": "portable"
         },

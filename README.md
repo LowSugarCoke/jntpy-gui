@@ -7,6 +7,7 @@
 
 Jntpy-Gui is an application with GUI to convert jupyter notebook(.ipynb) to python(.py)
 
+Download application: https://github.com/LowSugarCoke/jntpy-gui/releases
 ## Install
 
 

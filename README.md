@@ -1,4 +1,6 @@
 # Jntpy-Gui
+[![banner](https://raw.githubusercontent.com/LowSugarCoke/jntpy-gui/5b74eb608b489b6cf4eada9b19e575f49863bb05/banner/banner.png)](https://github.com/LowSugarCoke/jntpy-gui)
+
 [![python](https://img.shields.io/badge/python-3.10.9-blue)](https://github.com/LowSugarCoke/jntpy-gui) [![nodejs](https://img.shields.io/badge/nodejs-16.20.0-blue)](https://github.com/LowSugarCoke/jntpy-gui) [![Build Status](https://img.shields.io/github/forks/LowSugarCoke/jntpy-gui.svg)](https://github.com/LowSugarCoke/jntpy-gui) [![Build Status](https://img.shields.io/github/stars/LowSugarCoke/jntpy-gui.svg)](https://github.com/LowSugarCoke/jntpy-gui)
 
 
@@ -20,12 +22,12 @@ or on Windows
 ```
 .\jntpy-gui-env\Scripts\activate
 ```
-3. install the project dependencies
+3. install the python project dependencies
 ```
 pip install -r requirements.txt
 ```
 
-4. install npm libs
+4. install javascript project dependencies
 ```
 npm install
 ```
@@ -33,12 +35,13 @@ npm install
 
 ## Usage
 
-1. Run this script from command line without arguments to use the default keywords:
+1. Run this script
 ```
 npm start
 ```
 
 ## Deployment in windows
+1. Turn on command line and copy the command as below:
 
 ```
 python -m venv jntpy-gui-env

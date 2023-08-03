@@ -43,5 +43,6 @@ inputText.addEventListener('input', () => {
 
 // Listen for 'python-code' event from main process and update the output textarea
 ipcRenderer.on('python-code', (event, pythonContent) => {
-    document.getElementById('output-text').textContent = pythonContent;
+    pythonContent = pythonContent.replace(/\\n/g, '\n');
+    document.getElementById('output-text').value = pythonContent;
 })
